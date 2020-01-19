@@ -1,0 +1,306 @@
+2018-09-23 03:43:53.372@LM_NOTICE@(22271|140200115042112) NOTICE: using DCPSDebugLevel value from command option (overrides value if it's in config file).
+2018-09-23 03:43:53.372@LM_DEBUG@(22271|140200115042112) Service_Participant::set_repo_ior: Repo[ DEFAULT_REPO] == file://repo.ior
+2018-09-23 03:43:53.378@LM_DEBUG@(22271|140200115042112) [repository/DEFAULT_REPO]: RepositoryIor == file://repo.ior
+2018-09-23 03:43:53.378@LM_NOTICE@(22271|140200115042112) NOTICE: "DCPSRTISerialization" is not defined in config file - using code default.
+2018-09-23 03:43:53.378@LM_NOTICE@(22271|140200115042112) NOTICE: "DCPSBitTransportPort" is not defined in config file - using code default.
+2018-09-23 03:43:53.378@LM_NOTICE@(22271|140200115042112) NOTICE: "DCPSBitTransportIPAddress" is not defined in config file - using code default.
+2018-09-23 03:43:53.378@LM_NOTICE@(22271|140200115042112) NOTICE: "DCPSBitLookupDurationMsec" is not defined in config file - using code default.
+2018-09-23 03:43:53.378@LM_NOTICE@(22271|140200115042112) NOTICE: "DCPSBit" is not defined in config file - using code default.
+2018-09-23 03:43:53.378@LM_NOTICE@(22271|140200115042112) NOTICE: "DCPSSecurity" is not defined in config file - using code default.
+2018-09-23 03:43:53.378@LM_NOTICE@(22271|140200115042112) NOTICE: using DCPSTransportDebugLevel value from command option (overrides value if it's in config file).
+2018-09-23 03:43:53.378@LM_NOTICE@(22271|140200115042112) NOTICE: "DCPSPersistentDataDir" is not defined in config file - using code default.
+2018-09-23 03:43:53.378@LM_NOTICE@(22271|140200115042112) NOTICE: using DCPSPendingTimeout value from command option (overrides value if it's in config file).
+2018-09-23 03:43:53.378@LM_NOTICE@(22271|140200115042112) NOTICE: "DCPSPublisherContentFilter" is not defined in config file - using code default.
+2018-09-23 03:43:53.378@LM_NOTICE@(22271|140200115042112) NOTICE: "DCPSDefaultDiscovery" is not defined in config file - using code default.
+2018-09-23 03:43:53.378@LM_NOTICE@(22271|140200115042112) NOTICE: "DCPSBidirGIOP" is not defined in config file - using code default.
+2018-09-23 03:43:53.378@LM_NOTICE@(22271|140200115042112) NOTICE: "DCPSDefaultAddress" is not defined in config file - using code default.
+2018-09-23 03:43:53.378@LM_NOTICE@(22271|140200115042112) NOTICE: "DCPSMonitor" is not defined in config file - using code default.
+2018-09-23 03:43:53.378@LM_NOTICE@(22271|140200115042112) NOTICE: "FederationRecoveryDuration" is not defined in config file - using code default.
+2018-09-23 03:43:53.378@LM_NOTICE@(22271|140200115042112) NOTICE: "FederationInitialBackoffSeconds" is not defined in config file - using code default.
+2018-09-23 03:43:53.378@LM_NOTICE@(22271|140200115042112) NOTICE: "FederationBackoffMultiplier" is not defined in config file - using code default.
+2018-09-23 03:43:53.378@LM_NOTICE@(22271|140200115042112) NOTICE: "FederationLivelinessDuration" is not defined in config file - using code default.
+2018-09-23 03:43:53.378@LM_NOTICE@(22271|140200115042112) NOTICE: "scheduler" is not defined in config file - using code default.
+2018-09-23 03:43:53.378@LM_NOTICE@(22271|140200115042112) NOTICE: "scheduler_slice" is not defined in config file - using code default.
+2018-09-23 03:43:53.379@LM_NOTICE@(22271|140200115042112) NOTICE: "queue_messages_per_pool" is not defined in config file - using code default.
+2018-09-23 03:43:53.379@LM_NOTICE@(22271|140200115042112) NOTICE: "queue_initial_pools" is not defined in config file - using code default.
+2018-09-23 03:43:53.379@LM_NOTICE@(22271|140200115042112) NOTICE: "max_packet_size" is not defined in config file - using code default.
+2018-09-23 03:43:53.379@LM_NOTICE@(22271|140200115042112) NOTICE: "max_samples_per_packet" is not defined in config file - using code default.
+2018-09-23 03:43:53.379@LM_NOTICE@(22271|140200115042112) NOTICE: "optimum_packet_size" is not defined in config file - using code default.
+2018-09-23 03:43:53.379@LM_NOTICE@(22271|140200115042112) NOTICE: "thread_per_connection" is not defined in config file - using code default.
+2018-09-23 03:43:53.379@LM_NOTICE@(22271|140200115042112) NOTICE: "datalink_release_delay" is not defined in config file - using code default.
+2018-09-23 03:43:53.379@LM_NOTICE@(22271|140200115042112) NOTICE: "datalink_control_chunks" is not defined in config file - using code default.
+2018-09-23 03:43:53.379@LM_NOTICE@(22271|140200115042112) NOTICE: "local_address" is not defined in config file - using code default.
+2018-09-23 03:43:53.379@LM_NOTICE@(22271|140200115042112) NOTICE: "pub_address" is not defined in config file - using code default.
+2018-09-23 03:43:53.379@LM_NOTICE@(22271|140200115042112) NOTICE: "enable_nagle_algorithm" is not defined in config file - using code default.
+2018-09-23 03:43:53.379@LM_NOTICE@(22271|140200115042112) NOTICE: "conn_retry_initial_delay" is not defined in config file - using code default.
+2018-09-23 03:43:53.379@LM_NOTICE@(22271|140200115042112) NOTICE: "conn_retry_backoff_multiplier" is not defined in config file - using code default.
+2018-09-23 03:43:53.379@LM_NOTICE@(22271|140200115042112) NOTICE: "conn_retry_attempts" is not defined in config file - using code default.
+2018-09-23 03:43:53.379@LM_NOTICE@(22271|140200115042112) NOTICE: "passive_reconnect_duration" is not defined in config file - using code default.
+2018-09-23 03:43:53.379@LM_NOTICE@(22271|140200115042112) NOTICE: "max_output_pause_period" is not defined in config file - using code default.
+2018-09-23 03:43:53.379@LM_NOTICE@(22271|140200115042112) NOTICE: Service_Participant::load_domain_configuration failed to open [domain] section - using code default.
+2018-09-23 03:43:53.379@LM_NOTICE@(22271|140200115042112) NOTICE: StaticDiscovery::parse_topics no [topic] sections.
+2018-09-23 03:43:53.379@LM_NOTICE@(22271|140200115042112) NOTICE: StaticDiscovery::parse_datawriterqos no [datawriterqos] sections.
+2018-09-23 03:43:53.379@LM_NOTICE@(22271|140200115042112) NOTICE: StaticDiscovery::parse_datareaderqos no [datareaderqos] sections.
+2018-09-23 03:43:53.379@LM_NOTICE@(22271|140200115042112) NOTICE: StaticDiscovery::parse_publisherqos no [publisherqos] sections.
+2018-09-23 03:43:53.379@LM_NOTICE@(22271|140200115042112) NOTICE: StaticDiscovery::parse_subscriberqos no [subscriberqos] sections.
+2018-09-23 03:43:53.379@LM_NOTICE@(22271|140200115042112) NOTICE: StaticDiscovery::parse_endpoints no [endpoint] sections.
+2018-09-23 03:43:53.379@LM_NOTICE@(22271|140200115042112) NOTICE: Service_Participant::intializeScheduling() - no scheduling policy specified, not setting policy.
+2018-09-23 03:43:53.380@LM_DEBUG@TAO (22271|140200115042112) - Default_Resource_Factory - codeset manager=0x2204040
+2018-09-23 03:43:53.380@LM_DEBUG@TAO (22271|140200115042112) - Loaded default protocol <IIOP_Factory>
+2018-09-23 03:43:53.388@LM_DEBUG@TAO (22271|140200115042112) - TAO_Connector::connect: make_new_connection = 1 busy_count = 0
+2018-09-23 03:43:53.389@LM_DEBUG@TAO (22271|140200042256128) - IIOP_Connection_Handler::open, IIOP connection to peer <59.6.0.78:43741> on 9
+2018-09-23 03:43:53.389@LM_DEBUG@TAO (22271|140200115042112) - TAO_Connector::connect: found a transport [9] busy_count = 0
+2018-09-23 03:43:53.415@LM_DEBUG@(22271|140200115042112) DomainParticipantImpl::enable: enabled participant 01030000.4358d891.00000003.000001c1(f5dec9ab) in domain 4
+2018-09-23 03:43:53.415@LM_DEBUG@TAO (22271|140200115042112) - TAO_Connector::connect: found a transport [9] busy_count = 0
+2018-09-23 03:43:53.415@LM_DEBUG@TAO (22271|140200115042112) - TAO_Connector::connect: found a transport [9] busy_count = 0
+2018-09-23 03:43:53.416@LM_DEBUG@TAO (22271|140200115042112) - TAO_Connector::connect: found a transport [9] busy_count = 0
+2018-09-23 03:43:53.416@LM_DEBUG@TAO (22271|140200115042112) - TAO_Connector::connect: found a transport [9] busy_count = 0
+2018-09-23 03:43:53.417@LM_DEBUG@(22271|140200115042112) DDS::ParticipantBuiltinTopicDataDataReaderImpl::enable_specific-data Cached_Allocator_With_Overflow 222efa0 with 20 chunks
+2018-09-23 03:43:53.417@LM_DEBUG@(22271|140200115042112) DataReaderImpl::enable Cached_Allocator_With_Overflow 222f020 with 20 chunks
+2018-09-23 03:43:53.425@LM_WARNING@(22271|140200115042112) WARNING: Could not find FQDN. Using "127.0.0.1" as fully qualified hostname, please correct system configuration.
+2018-09-23 03:43:53.425@LM_DEBUG@(22271|140200115042112) TransportImpl::open()
+   transport_type:               tcp
+   name:                         _OPENDDS__BITTCPTransportInst_DEFAULT_REPO
+   queue_messages_per_pool:      10
+   queue_initial_pools:          5
+   max_packet_size:              2147481599
+   max_samples_per_packet:       10
+   optimum_packet_size:          4096
+   thread_per_connection:        false
+   datalink_release_delay:       0
+   datalink_control_chunks:      32
+
+   local_address:                127.0.0.1:44419
+   pub_address:                  
+   enable_nagle_algorithm:       false
+   conn_retry_initial_delay:     500
+   conn_retry_backoff_multiplier:2
+   conn_retry_attempts:          3
+   passive_reconnect_duration:   2000
+   max_output_pause_period:      -1
+2018-09-23 03:43:53.426@LM_DEBUG@TAO (22271|140200115042112) - TAO_Connector::connect: found a transport [9] busy_count = 0
+2018-09-23 03:43:53.435@LM_DEBUG@(22271|140200115042112) SubscriberImpl::reader_enabled, datareader(topic_name=DCPSParticipant) enabled
+2018-09-23 03:43:53.435@LM_DEBUG@(22271|140200042256128) DataReaderRemoteImpl::add_association - local 01030000.4358d891.00000003.000001c7(1cbd6c9e) remote 01030000.4358d891.00000001.000001c2(1617cb71)
+2018-09-23 03:43:53.435@LM_DEBUG@(22271|140200115042112) DDS::TopicBuiltinTopicDataDataReaderImpl::enable_specific-data Cached_Allocator_With_Overflow 2282aa0 with 20 chunks
+2018-09-23 03:43:53.435@LM_DEBUG@(22271|140200115042112) DataReaderImpl::enable Cached_Allocator_With_Overflow 2282b20 with 20 chunks
+2018-09-23 03:43:53.435@LM_DEBUG@(22271|140200042256128) DataReaderImpl::add_association - bit 1 local 01030000.4358d891.00000003.000001c7(1cbd6c9e) remote 01030000.4358d891.00000001.000001c2(1617cb71)
+2018-09-23 03:43:53.436@LM_DEBUG@TAO (22271|140200115042112) - TAO_Connector::connect: found a transport [9] busy_count = 0
+2018-09-23 03:43:53.436@LM_DEBUG@(22271|140200042256128) TransportClient::associate added PendingAssoc between 01030000.4358d891.00000003.000001c7(1cbd6c9e) and remote 01030000.4358d891.00000001.000001c2(1617cb71)
+2018-09-23 03:43:53.437@LM_DEBUG@(22271|140200042256128) TransportReceiveStrategy-mb Cached_Allocator_With_Overflow d00091d8 with 1000 chunks
+2018-09-23 03:43:53.437@LM_DEBUG@(22271|140200042256128) TransportReceiveStrategy-db Cached_Allocator_With_Overflow d0009278 with 100 chunks
+2018-09-23 03:43:53.437@LM_DEBUG@(22271|140200115042112) DataReaderRemoteImpl::add_association - local 01030000.4358d891.00000003.000002c7(37903f5d) remote 01030000.4358d891.00000001.000002c2(3d3a98b2)
+2018-09-23 03:43:53.437@LM_DEBUG@(22271|140200042256128) TransportReceiveStrategy-data Cached_Allocator_With_Overflow d0009318 with 100 chunks
+2018-09-23 03:43:53.437@LM_DEBUG@(22271|140200115042112) DataReaderImpl::add_association - bit 1 local 01030000.4358d891.00000003.000002c7(37903f5d) remote 01030000.4358d891.00000001.000002c2(3d3a98b2)
+2018-09-23 03:43:53.437@LM_DEBUG@(22271|140200115042112) TransportClient::associate added PendingAssoc between 01030000.4358d891.00000003.000002c7(37903f5d) and remote 01030000.4358d891.00000001.000002c2(3d3a98b2)
+2018-09-23 03:43:53.437@LM_DEBUG@(22271|140200042256128) TransportClient::use_datalink_i TransportClient(0x222d6c8) using datalink[0x7f82d00055d0] from 01030000.4358d891.00000001.000001c2(1617cb71)
+2018-09-23 03:43:53.437@LM_DEBUG@(22271|140200115042112) TcpTransport::find_datalink_i link[0x7f82d00055d0] found, already started.
+2018-09-23 03:43:53.437@LM_DEBUG@(22271|140200042256128) TransportClient::use_datalink_i TransportClient(0x222d6c8) about to add_link[0x7f82d00055d0] to remote: 01030000.4358d891.00000001.000001c2(1617cb71)
+2018-09-23 03:43:53.437@LM_DEBUG@(22271|140200115042112) TransportClient::use_datalink_i TransportClient(0x22815e8) using datalink[0x7f82d00055d0] from 01030000.4358d891.00000001.000002c2(3d3a98b2)
+2018-09-23 03:43:53.437@LM_DEBUG@(22271|140200115042112) TransportClient::use_datalink_i TransportClient(0x22815e8) about to add_link[0x7f82d00055d0] to remote: 01030000.4358d891.00000001.000002c2(3d3a98b2)
+2018-09-23 03:43:53.437@LM_INFO@(22271|140200052848384) EndHistoricSamplesMissedSweeper::ScheduleCommand::execute() - Scheduled sweeper 1
+2018-09-23 03:43:53.437@LM_INFO@(22271|140200052848384) EndHistoricSamplesMissedSweeper::ScheduleCommand::execute() - Scheduled sweeper 2
+2018-09-23 03:43:53.437@LM_DEBUG@TAO (22271|140200042256128) - TAO_Connector::connect: found a transport [9] busy_count = 0
+2018-09-23 03:43:53.437@LM_DEBUG@TAO (22271|140200115042112) - TAO_Connector::connect: make_new_connection = 1 busy_count = 1
+2018-09-23 03:43:53.438@LM_DEBUG@TAO (22271|140200042256128) - IIOP_Connection_Handler::open, IIOP connection to peer <59.6.0.78:43741> on 16
+2018-09-23 03:43:53.438@LM_DEBUG@TAO (22271|140200115042112) - TAO_Connector::connect: found a transport [9] busy_count = 0
+2018-09-23 03:43:53.438@LM_DEBUG@(22271|140200115042112) SubscriberImpl::reader_enabled, datareader(topic_name=DCPSTopic) enabled
+2018-09-23 03:43:53.438@LM_DEBUG@(22271|140200115042112) DDS::PublicationBuiltinTopicDataDataReaderImpl::enable_specific-data Cached_Allocator_With_Overflow 228fe50 with 20 chunks
+2018-09-23 03:43:53.438@LM_DEBUG@(22271|140200115042112) DataReaderImpl::enable Cached_Allocator_With_Overflow 228fed0 with 20 chunks
+2018-09-23 03:43:53.438@LM_DEBUG@TAO (22271|140200115042112) - TAO_Connector::connect: found a transport [9] busy_count = 0
+2018-09-23 03:43:53.454@LM_INFO@(22271|140200052848384) EndHistoricSamplesMissedSweeper::CancelCommand::execute() - Unscheduled sweeper 1
+2018-09-23 03:43:53.455@LM_INFO@(22271|140200052848384) EndHistoricSamplesMissedSweeper::CancelCommand::execute() - Unscheduled sweeper 2
+2018-09-23 03:43:53.455@LM_DEBUG@(22271|140200042256128) DataReaderRemoteImpl::add_association - local 01030000.4358d891.00000003.000003c7(2e8b0e1c) remote 01030000.4358d891.00000001.000004c2(6b603f34)
+2018-09-23 03:43:53.455@LM_DEBUG@(22271|140200115042112) SubscriberImpl::reader_enabled, datareader(topic_name=DCPSPublication) enabled
+2018-09-23 03:43:53.455@LM_DEBUG@(22271|140200042256128) DataReaderImpl::add_association - bit 1 local 01030000.4358d891.00000003.000003c7(2e8b0e1c) remote 01030000.4358d891.00000001.000004c2(6b603f34)
+2018-09-23 03:43:53.455@LM_DEBUG@(22271|140200042256128) TransportClient::associate added PendingAssoc between 01030000.4358d891.00000003.000003c7(2e8b0e1c) and remote 01030000.4358d891.00000001.000004c2(6b603f34)
+2018-09-23 03:43:53.456@LM_DEBUG@(22271|140200115042112) DDS::SubscriptionBuiltinTopicDataDataReaderImpl::enable_specific-data Cached_Allocator_With_Overflow 2294dd0 with 20 chunks
+2018-09-23 03:43:53.456@LM_DEBUG@(22271|140200115042112) DataReaderImpl::enable Cached_Allocator_With_Overflow 2294e50 with 20 chunks
+2018-09-23 03:43:53.456@LM_DEBUG@(22271|140200042256128) TcpTransport::find_datalink_i link[0x7f82d00055d0] found, already started.
+2018-09-23 03:43:53.456@LM_DEBUG@(22271|140200042256128) TransportClient::use_datalink_i TransportClient(0x228ed68) using datalink[0x7f82d00055d0] from 01030000.4358d891.00000001.000004c2(6b603f34)
+2018-09-23 03:43:53.456@LM_DEBUG@(22271|140200042256128) TransportClient::use_datalink_i TransportClient(0x228ed68) about to add_link[0x7f82d00055d0] to remote: 01030000.4358d891.00000001.000004c2(6b603f34)
+2018-09-23 03:43:53.456@LM_INFO@(22271|140200052848384) EndHistoricSamplesMissedSweeper::ScheduleCommand::execute() - Scheduled sweeper 3
+2018-09-23 03:43:53.456@LM_DEBUG@TAO (22271|140200115042112) - TAO_Connector::connect: found a transport [9] busy_count = 0
+2018-09-23 03:43:53.456@LM_DEBUG@TAO (22271|140200042256128) - TAO_Connector::connect: found a transport [16] busy_count = 1
+2018-09-23 03:43:53.457@LM_DEBUG@(22271|140200115042112) DataReaderRemoteImpl::add_association - local 01030000.4358d891.00000003.000004c7(61ca98db) remote 01030000.4358d891.00000001.000003c2(2421a9f3)
+2018-09-23 03:43:53.457@LM_DEBUG@(22271|140200115042112) DataReaderImpl::add_association - bit 1 local 01030000.4358d891.00000003.000004c7(61ca98db) remote 01030000.4358d891.00000001.000003c2(2421a9f3)
+2018-09-23 03:43:53.457@LM_DEBUG@(22271|140200115042112) TransportClient::associate added PendingAssoc between 01030000.4358d891.00000003.000004c7(61ca98db) and remote 01030000.4358d891.00000001.000003c2(2421a9f3)
+2018-09-23 03:43:53.457@LM_DEBUG@(22271|140200115042112) TcpTransport::find_datalink_i link[0x7f82d00055d0] found, already started.
+2018-09-23 03:43:53.457@LM_DEBUG@(22271|140200115042112) TransportClient::use_datalink_i TransportClient(0x2293548) using datalink[0x7f82d00055d0] from 01030000.4358d891.00000001.000003c2(2421a9f3)
+2018-09-23 03:43:53.457@LM_DEBUG@(22271|140200115042112) TransportClient::use_datalink_i TransportClient(0x2293548) about to add_link[0x7f82d00055d0] to remote: 01030000.4358d891.00000001.000003c2(2421a9f3)
+2018-09-23 03:43:53.457@LM_INFO@(22271|140200052848384) EndHistoricSamplesMissedSweeper::ScheduleCommand::execute() - Scheduled sweeper 4
+2018-09-23 03:43:53.457@LM_DEBUG@TAO (22271|140200115042112) - TAO_Connector::connect: found a transport [9] busy_count = 0
+2018-09-23 03:43:53.457@LM_DEBUG@(22271|140200115042112) SubscriberImpl::reader_enabled, datareader(topic_name=DCPSSubscription) enabled
+2018-09-23 03:43:53.457@LM_DEBUG@TAO (22271|140200115042112) - TAO_Connector::connect: found a transport [9] busy_count = 0
+2018-09-23 03:43:53.457@LM_INFO@(22271|140200052848384) EndHistoricSamplesMissedSweeper::CancelCommand::execute() - Unscheduled sweeper 4
+2018-09-23 03:43:53.458@LM_DEBUG@(22271|140200115042112) Messenger::MessageDataWriterImpl::enable_specific is unbounded data - allocate from heap
+2018-09-23 03:43:53.458@LM_DEBUG@(22271|140200115042112) Messenger::MessageDataWriterImpl::enable_specific-mb Cached_Allocator_With_Overflow 229a4a0 with 200 chunks
+2018-09-23 03:43:53.458@LM_DEBUG@(22271|140200115042112) Messenger::MessageDataWriterImpl::enable_specific-db Cached_Allocator_With_Overflow 229e3e0 with 20 chunks
+2018-09-23 03:43:53.458@LM_DEBUG@(22271|140200115042112) WriteDataContainer sample_list_element_allocator 229ed28 with 20 chunks
+2018-09-23 03:43:53.458@LM_DEBUG@(22271|140200115042112) DataWriterImpl::enable-mb Cached_Allocator_With_Overflow 22a23a0 with 20 chunks
+2018-09-23 03:43:53.458@LM_DEBUG@(22271|140200115042112) DataWriterImpl::enable-db Cached_Allocator_With_Overflow 22a62e0 with 20 chunks
+2018-09-23 03:43:53.458@LM_DEBUG@(22271|140200115042112) DataWriterImpl::enable-header Cached_Allocator_With_Overflow 22a6a30 with 20 chunks
+2018-09-23 03:43:53.459@LM_DEBUG@(22271|140200115042112) TransportImpl::open()
+   transport_type:               tcp
+   name:                         t1
+   queue_messages_per_pool:      10
+   queue_initial_pools:          5
+   max_packet_size:              2147481599
+   max_samples_per_packet:       10
+   optimum_packet_size:          4096
+   thread_per_connection:        false
+   datalink_release_delay:       10000
+   datalink_control_chunks:      32
+
+   local_address:                127.0.0.1:43339
+   pub_address:                  
+   enable_nagle_algorithm:       false
+   conn_retry_initial_delay:     500
+   conn_retry_backoff_multiplier:2
+   conn_retry_attempts:          3
+   passive_reconnect_duration:   2000
+   max_output_pause_period:      -1
+2018-09-23 03:43:53.460@LM_DEBUG@TAO (22271|140200115042112) - TAO_Connector::connect: found a transport [9] busy_count = 0
+2018-09-23 03:43:53.461@LM_DEBUG@(22271|140200115042112) DataWriterRemoteImpl::add_association - local 01030000.4358d891.00000003.00000102(f7b35aa1) remote 01030000.4358d891.00000002.00000507(ded5429a)
+2018-09-23 03:43:53.461@LM_DEBUG@(22271|140200115042112) DataWriterImpl::add_association - bit 0 local 01030000.4358d891.00000003.00000102(f7b35aa1) remote 01030000.4358d891.00000002.00000507(ded5429a)
+2018-09-23 03:43:53.461@LM_DEBUG@(22271|140200115042112) TransportClient::associate added PendingAssoc between 01030000.4358d891.00000003.00000102(f7b35aa1) and remote 01030000.4358d891.00000002.00000507(ded5429a)
+2018-09-23 03:43:53.461@LM_DEBUG@(22271|140200115042112) PendingAssoc::initiate_connect - between 01030000.4358d891.00000003.00000102(f7b35aa1) and remote 01030000.4358d891.00000002.00000507(ded5429a)
+2018-09-23 03:43:53.461@LM_DEBUG@(22271|140200115042112) TransportClient::initiate_connect_i - attempt to connect_datalink between local 01030000.4358d891.00000003.00000102(f7b35aa1) and remote 01030000.4358d891.00000002.00000507(ded5429a)
+2018-09-23 03:43:53.461@LM_DEBUG@(22271|140200115042112) TcpTransport::connect_datalink PriorityKey prio=0, addr=127.0.0.1:45547, is_loopback=0, is_active=1
+2018-09-23 03:43:53.461@LM_DEBUG@(22271|140200115042112) TcpTransport::connect_datalink create new link[0x22d7fe0]
+2018-09-23 03:43:53.461@LM_DEBUG@(22271|140200115042112) TcpTransport::connect_datalink pending.
+2018-09-23 03:43:53.461@LM_DEBUG@(22271|140200115042112) TransportClient::initiate_connect_i - connection between local 01030000.4358d891.00000003.00000102(f7b35aa1) and remote 01030000.4358d891.00000002.00000507(ded5429a) initiation successful
+2018-09-23 03:43:53.461@LM_DEBUG@(22271|140200115042112) PendingAssoc::intiate_connect - resulting link from initiate_connect_i (local: 01030000.4358d891.00000003.00000102(f7b35aa1) to remote: 01030000.4358d891.00000002.00000507(ded5429a)) was nil
+2018-09-23 03:43:53.462@LM_DEBUG@(22271|140199788791552) TransportReceiveStrategy-mb Cached_Allocator_With_Overflow c4004ce8 with 1000 chunks
+2018-09-23 03:43:53.462@LM_DEBUG@(22271|140199788791552) TransportReceiveStrategy-db Cached_Allocator_With_Overflow c4004d88 with 100 chunks
+2018-09-23 03:43:53.462@LM_DEBUG@(22271|140199788791552) TransportReceiveStrategy-data Cached_Allocator_With_Overflow c4004e28 with 100 chunks
+2018-09-23 03:43:53.462@LM_DEBUG@(22271|140199788791552) TransportClient::use_datalink_i TransportClient(0x2299290) using datalink[0x22d7fe0] from 01030000.4358d891.00000002.00000507(ded5429a)
+2018-09-23 03:43:53.462@LM_DEBUG@(22271|140199788791552) TransportClient::use_datalink_i TransportClient(0x2299290) about to add_link[0x22d7fe0] to remote: 01030000.4358d891.00000002.00000507(ded5429a)
+2018-09-23 03:43:53.462@LM_INFO@(22271|140199788791552) DataWriterImpl::transport_assoc_done:  writer 01030000.4358d891.00000003.00000102(f7b35aa1) succeeded in associating with reader 01030000.4358d891.00000002.00000507(ded5429a)
+2018-09-23 03:43:53.462@LM_DEBUG@(22271|140199788791552) DataWriterImpl::transport_assoc_done: marked 01030000.4358d891.00000002.00000507(ded5429a) as pending.
+2018-09-23 03:43:53.463@LM_DEBUG@(22271|140200042256128) DataWriterImpl::association_complete - bit 0 local 01030000.4358d891.00000003.00000102(f7b35aa1) remote 01030000.4358d891.00000002.00000507(ded5429a)
+2018-09-23 03:43:53.463@LM_DEBUG@(22271|140200042256128) DataWriterImpl::association_complete_i - bit 0 local 01030000.4358d891.00000003.00000102(f7b35aa1) remote 01030000.4358d891.00000002.00000507(ded5429a)
+2018-09-23 03:43:53.463@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_control_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending control sample: INSTANCE_REGISTRATION (0x02), Length: 4, Byte order: Little Endian, Key Fields Only, Sequence: 0x01, Timestamp: 1537641833.463808000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.463@LM_INFO@(22271|140200052848384) EndHistoricSamplesMissedSweeper::CancelCommand::execute() - Unscheduled sweeper 3
+2018-09-23 03:43:53.464@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.464@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x02, Timestamp: 1537641833.464241000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.464@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.464@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x03, Timestamp: 1537641833.464463000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.464@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.464@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x04, Timestamp: 1537641833.464655000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.464@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.464@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x05, Timestamp: 1537641833.464828000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.464@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.465@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x06, Timestamp: 1537641833.464999000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.465@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.465@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x07, Timestamp: 1537641833.465168000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.465@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.465@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x08, Timestamp: 1537641833.465328000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.465@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.465@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x09, Timestamp: 1537641833.465487000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.465@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.465@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x0a, Timestamp: 1537641833.465645000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.465@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.465@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x0b, Timestamp: 1537641833.465803000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.465@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.465@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x0c, Timestamp: 1537641833.465961000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.466@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.466@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x0d, Timestamp: 1537641833.466127000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.466@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.466@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x0e, Timestamp: 1537641833.466300000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.466@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.466@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x0f, Timestamp: 1537641833.466457000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.466@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.466@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x10, Timestamp: 1537641833.466614000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.466@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.466@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x11, Timestamp: 1537641833.466794000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.466@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.466@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x12, Timestamp: 1537641833.466954000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.467@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.467@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x13, Timestamp: 1537641833.467113000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.467@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.467@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x14, Timestamp: 1537641833.467271000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.467@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.467@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x15, Timestamp: 1537641833.467430000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.467@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.467@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x16, Timestamp: 1537641833.467595000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.467@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.467@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x17, Timestamp: 1537641833.467753000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.467@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.467@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x18, Timestamp: 1537641833.467909000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.468@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.468@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x19, Timestamp: 1537641833.468065000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.468@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.468@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x1a, Timestamp: 1537641833.468222000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.468@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.468@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x1b, Timestamp: 1537641833.468379000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.468@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.468@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x1c, Timestamp: 1537641833.468535000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.468@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.468@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x1d, Timestamp: 1537641833.468691000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.468@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.468@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x1e, Timestamp: 1537641833.468847000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.468@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.469@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x1f, Timestamp: 1537641833.469010000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.469@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.469@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x20, Timestamp: 1537641833.469167000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.469@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.469@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x21, Timestamp: 1537641833.469323000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.469@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.469@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x22, Timestamp: 1537641833.469479000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.469@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.469@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x23, Timestamp: 1537641833.469631000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.469@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.469@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x24, Timestamp: 1537641833.469782000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.469@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.469@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x25, Timestamp: 1537641833.469933000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.470@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.470@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x26, Timestamp: 1537641833.470083000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.470@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.470@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x27, Timestamp: 1537641833.470240000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.470@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.470@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x28, Timestamp: 1537641833.470367000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.470@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.470@LM_DEBUG@(22271|140199763613440) DataWriterImpl::create_sample_data_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending data sample: SAMPLE_DATA (0x00), Length: 62, Byte order: Little Endian, Sequence: 0x29, Timestamp: 1537641833.470486000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.470@LM_DEBUG@(22271|140199763613440) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.962@LM_DEBUG@(22271|140200052848384) DataWriterImpl::create_control_message: from publication 01030000.4358d891.00000003.00000102(f7b35aa1) sending control sample: DISPOSE_UNREGISTER_INSTANCE (0x0a), Length: 4, Byte order: Little Endian, Key Fields Only, Sequence: 0x2a, Timestamp: 1537641833.962430000, Publication: 01030000.4358d891.00000003.00000102(f7b35aa1) .
+2018-09-23 03:43:53.962@LM_DEBUG@(22271|140200052848384) WriteDataContainer::data_delivered 0x22a2238
+2018-09-23 03:43:53.963@LM_DEBUG@(22271|140200052848384) DataWriterImpl::remove_associations: bit 0 local 01030000.4358d891.00000003.00000102(f7b35aa1) remote 01030000.4358d891.00000002.00000507(ded5429a) num remotes 1
+2018-09-23 03:43:53.963@LM_DEBUG@(22271|140199788791552) DataLink::handle_exception() - (delay) scheduling timer for future release
+2018-09-23 03:43:53.964@LM_DEBUG@TAO (22271|140200052848384) - TAO_Connector::connect: found a transport [9] busy_count = 0
+2018-09-23 03:43:53.966@LM_DEBUG@TAO (22271|140200052848384) - TAO_Connector::connect: found a transport [9] busy_count = 0
+2018-09-23 03:43:53.967@LM_DEBUG@(22271|140200052848384) DataReaderImpl::remove_associations: bit 1 local 01030000.4358d891.00000003.000001c7(1cbd6c9e) remote 01030000.4358d891.00000001.000001c2(1617cb71) num remotes 1 
+2018-09-23 03:43:53.967@LM_DEBUG@(22271|140200052848384) DataReaderImpl::remove_associations_i: bit 1 local 01030000.4358d891.00000003.000001c7(1cbd6c9e) remote 01030000.4358d891.00000001.000001c2(1617cb71) num remotes 1 
+2018-09-23 03:43:53.967@LM_DEBUG@(22271|140200052848384) InstanceState::writer_became_dead on 01030000.4358d891.00000001.000001c2(1617cb71)
+2018-09-23 03:43:53.967@LM_DEBUG@(22271|140200052848384) InstanceState::writer_became_dead on 01030000.4358d891.00000001.000001c2(1617cb71)
+2018-09-23 03:43:53.968@LM_DEBUG@TAO (22271|140200052848384) - TAO_Connector::connect: found a transport [9] busy_count = 0
+2018-09-23 03:43:53.969@LM_DEBUG@(22271|140200052848384) DataReaderImpl::remove_associations: bit 1 local 01030000.4358d891.00000003.000003c7(2e8b0e1c) remote 01030000.4358d891.00000001.000004c2(6b603f34) num remotes 1 
+2018-09-23 03:43:53.969@LM_DEBUG@(22271|140200052848384) DataReaderImpl::remove_associations_i: bit 1 local 01030000.4358d891.00000003.000003c7(2e8b0e1c) remote 01030000.4358d891.00000001.000004c2(6b603f34) num remotes 1 
+2018-09-23 03:43:53.969@LM_DEBUG@(22271|140200052848384) InstanceState::writer_became_dead on 01030000.4358d891.00000001.000004c2(6b603f34)
+2018-09-23 03:43:53.969@LM_DEBUG@TAO (22271|140200052848384) - TAO_Connector::connect: found a transport [9] busy_count = 0
+2018-09-23 03:43:53.970@LM_DEBUG@(22271|140200052848384) DataReaderImpl::remove_associations: bit 1 local 01030000.4358d891.00000003.000004c7(61ca98db) remote 01030000.4358d891.00000001.000003c2(2421a9f3) num remotes 1 
+2018-09-23 03:43:53.970@LM_DEBUG@(22271|140200052848384) DataReaderImpl::remove_associations_i: bit 1 local 01030000.4358d891.00000003.000004c7(61ca98db) remote 01030000.4358d891.00000001.000003c2(2421a9f3) num remotes 1 
+2018-09-23 03:43:53.970@LM_DEBUG@(22271|140200052848384) InstanceState::writer_became_dead on 01030000.4358d891.00000001.000003c2(2421a9f3)
+2018-09-23 03:43:53.971@LM_DEBUG@TAO (22271|140200052848384) - TAO_Connector::connect: found a transport [9] busy_count = 0
+2018-09-23 03:43:53.972@LM_DEBUG@(22271|140200052848384) DataReaderImpl::remove_associations: bit 1 local 01030000.4358d891.00000003.000002c7(37903f5d) remote 01030000.4358d891.00000001.000002c2(3d3a98b2) num remotes 1 
+2018-09-23 03:43:53.972@LM_INFO@(22271|140200025249536) Peer has gracefully disconnected.
+2018-09-23 03:43:53.972@LM_DEBUG@(22271|140200052848384) DataReaderImpl::remove_associations_i: bit 1 local 01030000.4358d891.00000003.000002c7(37903f5d) remote 01030000.4358d891.00000001.000002c2(3d3a98b2) num remotes 1 
+2018-09-23 03:43:53.972@LM_DEBUG@(22271|140200025249536) TcpConnection::handle_close() called on transport: _OPENDDS__BITTCPTransportInst_DEFAULT_REPO to 127.0.0.1:46783.
+2018-09-23 03:43:53.972@LM_DEBUG@(22271|140200052848384) InstanceState::writer_became_dead on 01030000.4358d891.00000001.000002c2(3d3a98b2)
+2018-09-23 03:43:53.972@LM_DEBUG@(22271|140200052848384) InstanceState::writer_became_dead on 01030000.4358d891.00000001.000002c2(3d3a98b2)
+2018-09-23 03:43:53.972@LM_DEBUG@(22271|140200025249536) DataLink::handle_exception() - delay already elapsed so handle_timeout now
+2018-09-23 03:43:53.973@LM_DEBUG@TAO (22271|140200052848384) - TAO_Connector::connect: found a transport [9] busy_count = 0
+2018-09-23 03:43:53.973@LM_DEBUG@TAO (22271|140200052848384) - TAO_Connector::connect: found a transport [9] busy_count = 0
+2018-09-23 03:43:53.973@LM_DEBUG@TAO (22271|140200052848384) - TAO_Connector::connect: found a transport [9] busy_count = 0
+2018-09-23 03:43:53.974@LM_DEBUG@TAO (22271|140200052848384) - TAO_Connector::connect: found a transport [9] busy_count = 0
+2018-09-23 03:43:53.974@LM_DEBUG@TAO (22271|140200052848384) - TAO_Connector::connect: found a transport [9] busy_count = 0
+2018-09-23 03:43:53.974@LM_DEBUG@TAO (22271|140200115042112) - TAO_Connector::connect: found a transport [9] busy_count = 0
+2018-09-23 03:43:53.976@LM_DEBUG@TAO (22271|140200115042112) - Connection_Handler[9]::close_connection_eh, purging entry from cache
+2018-09-23 03:43:53.976@LM_DEBUG@TAO (22271|140200115042112) - Connection_Handler[9]::close_connection_eh, removing from the reactor
+2018-09-23 03:43:53.976@LM_DEBUG@TAO (22271|140200115042112) - Connection_Handler[9]::close_connection_eh, cancel all timers
+2018-09-23 03:43:53.976@LM_DEBUG@TAO (22271|140200115042112) - Connection_Handler[9]::close_connection_eh end
+2018-09-23 03:43:53.976@LM_DEBUG@TAO (22271|140200115042112) - Connection_Handler[16]::close_connection_eh, purging entry from cache
+2018-09-23 03:43:53.976@LM_DEBUG@TAO (22271|140200115042112) - Connection_Handler[16]::close_connection_eh, removing from the reactor
+2018-09-23 03:43:53.976@LM_DEBUG@TAO (22271|140200115042112) - Connection_Handler[16]::close_connection_eh, cancel all timers
+2018-09-23 03:43:53.976@LM_DEBUG@TAO (22271|140200115042112) - Connection_Handler[16]::close_connection_eh end
+2018-09-23 03:43:53.976@LM_DEBUG@ 03:43:53.976956 (22271|140200115042112) Service_Participant::~Service_Participant()
+2018-09-23 03:43:53.976@LM_DEBUG@ 03:43:53.976986 (22271|140200115042112) DomainParticipantFactoryImpl::~DomainParticipantFactoryImpl()

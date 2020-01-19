@@ -1,0 +1,3 @@
+./DDS_Server -DCPSConfigFile rtps_DDS_Server.ini
+./DDS_Client -DCPSConfigFile rtps_DDS_Client.ini
+./DDS_Server -DCPSConfigFile rtps_DDS_Server.ini -m

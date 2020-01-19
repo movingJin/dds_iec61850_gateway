@@ -1,0 +1,53 @@
+TAO (22263|140531915507520) - Default_Resource_Factory - codeset manager=0x14b89a0
+TAO (22263|140531915507520) - Loaded default protocol <IIOP_Factory>
+TAO (22263|140531915507520) - IIOP_Connection_Handler::open, IIOP connection to peer <59.6.0.78:58705> on 9
+TAO (22263|140531915507520) - IIOP_Connection_Handler::open, IIOP connection to peer <59.6.0.78:56731> on 10
+(22263|140531915507520) WARNING: Could not find FQDN. Using "127.0.0.1" as fully qualified hostname, please correct system configuration.
+TAO (22263|140531915507520) - IIOP_Connection_Handler::process_listen_point_list, Listening port [46119] on [59.6.0.78]
+TAO (22263|140531915507520) - TAO_Connector::connect: found a transport [9] busy_count = 0
+TAO (22263|140531915507520) - IIOP_Connection_Handler::process_listen_point_list, Listening port [45883] on [59.6.0.78]
+TAO (22263|140531915507520) - TAO_Connector::connect: found a transport [10] busy_count = 0
+TAO (22263|140531915507520) - TAO_Connector::connect: found a transport [9] busy_count = 0
+TAO (22263|140531915507520) - TAO_Connector::connect: found a transport [10] busy_count = 0
+TAO (22263|140531915507520) - Transport[9]::handle_input_parse_data, notify reactor
+TAO (22263|140531915507520) - Transport[9]::notify_reactor, notify to Reactor
+TAO (22263|140531915507520) - TAO_Connector::connect: found a transport [9] busy_count = 0
+TAO (22263|140531915507520) - IIOP_Connection_Handler::open, IIOP connection to peer <59.6.0.78:60349> on 18
+TAO (22263|140531915507520) - IIOP_Connection_Handler::open, IIOP connection to peer <59.6.0.78:36929> on 19
+TAO (22263|140531915507520) - Transport[9]::handle_input_parse_data, notify reactor
+TAO (22263|140531915507520) - Transport[9]::notify_reactor, notify to Reactor
+TAO (22263|140531915507520) - TAO_Connector::connect: found a transport [9] busy_count = 0
+TAO (22263|140531915507520) - Transport[10]::handle_input_parse_data, notify reactor
+TAO (22263|140531915507520) - Transport[10]::notify_reactor, notify to Reactor
+TAO (22263|140531915507520) - Transport[10]::process_queue_head, notify reactor
+TAO (22263|140531915507520) - Transport[10]::notify_reactor, notify to Reactor
+TAO (22263|140531915507520) - Transport[9]::handle_input_parse_data, notify reactor
+TAO (22263|140531915507520) - Transport[9]::notify_reactor, notify to Reactor
+TAO (22263|140531915507520) - TAO_Connector::connect: found a transport [10] busy_count = 0
+TAO (22263|140531915507520) - TAO_Connector::connect: found a transport [10] busy_count = 0
+TAO (22263|140531915507520) - TAO_Connector::connect: found a transport [10] busy_count = 0
+TAO (22263|140531915507520) - TAO_Connector::connect: found a transport [9] busy_count = 0
+TAO (22263|140531915507520) - TAO_Connector::connect: found a transport [10] busy_count = 0
+TAO (22263|140531915507520) - IIOP_Connection_Handler::process_listen_point_list, Listening port [45883] on [59.6.0.78]
+TAO (22263|140531915507520) - TAO_Connector::connect: found a transport [9] busy_count = 0
+TAO (22263|140531915507520) - Transport[10]::handle_input, error parsing incoming message
+TAO (22263|140531915507520) - Connection_Handler[10]::close_connection_eh, purging entry from cache
+TAO (22263|140531915507520) - Connection_Handler[10]::close_connection_eh, removing from the reactor
+TAO (22263|140531915507520) - Connection_Handler[10]::close_connection_eh, cancel all timers
+TAO (22263|140531915507520) - Connection_Handler[10]::close_connection_eh end
+TAO (22263|140531915507520) - Transport[18]::handle_input, error parsing incoming message
+TAO (22263|140531915507520) - Connection_Handler[18]::close_connection_eh, purging entry from cache
+TAO (22263|140531915507520) - Connection_Handler[18]::close_connection_eh, removing from the reactor
+TAO (22263|140531915507520) - Connection_Handler[18]::close_connection_eh, cancel all timers
+TAO (22263|140531915507520) - Connection_Handler[18]::close_connection_eh end
+TAO (22263|140531915507520) - Transport[9]::handle_input, error parsing incoming message
+TAO (22263|140531915507520) - Connection_Handler[9]::close_connection_eh, purging entry from cache
+TAO (22263|140531915507520) - Connection_Handler[9]::close_connection_eh, removing from the reactor
+TAO (22263|140531915507520) - Connection_Handler[9]::close_connection_eh, cancel all timers
+TAO (22263|140531915507520) - Connection_Handler[9]::close_connection_eh end
+TAO (22263|140531915507520) - Transport[19]::handle_input, error parsing incoming message
+TAO (22263|140531915507520) - Connection_Handler[19]::close_connection_eh, purging entry from cache
+TAO (22263|140531915507520) - Connection_Handler[19]::close_connection_eh, removing from the reactor
+TAO (22263|140531915507520) - Connection_Handler[19]::close_connection_eh, cancel all timers
+TAO (22263|140531915507520) - Connection_Handler[19]::close_connection_eh end
+InfoRepo_Shutdown: shutting down on signal 15

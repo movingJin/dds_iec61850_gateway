@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<DDS_response>
+  <confirmed-ResponsePDU>
+    <ConfirmedServiceResponse>
+      <Read>
+        <listOfAccessResult>
+          <success>
+            <float>21.7</float>
+            <float>0.0</float>
+          </success>
+        </listOfAccessResult>
+      </Read>
+    </ConfirmedServiceResponse>
+  </confirmed-ResponsePDU>
+</DDS_response>

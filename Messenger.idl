@@ -1,0 +1,38 @@
+/*
+ *
+ *
+ * Distributed under the OpenDDS License.
+ * See: http://www.opendds.org/license.html
+ */
+
+const long MAX_NAME_LEN = 128;
+const long MAX_FILE_SIZE = 100000;
+
+typedef string StringArray[100];
+typedef string<MAX_NAME_LEN> NameType;
+typedef sequence<octet,MAX_FILE_SIZE> BinaryContentsType;
+
+module Messenger {
+
+#pragma DCPS_DATA_TYPE "Messenger::Message"
+//#pragma DCPS_DATA_KEY "Messenger::Message subject_id"
+
+/*struct BinaryFile {
+    NameType name; //@key
+    BinaryContentsType contents;
+};*/
+
+struct timespec {
+	long tv_sec;     /* seconds */
+	long tv_nsec ;    /* nanosecond */ 
+};
+
+  struct Message {
+	string text;
+	long   count;
+//	StringArray identifier;
+	timespec time_stamp;
+//	BinaryFile file;
+	char subject;
+  };
+};
