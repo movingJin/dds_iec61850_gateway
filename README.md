@@ -12,4 +12,8 @@ Server side: #./DDS_Server -DCPSConfigFile rtps_DDS_Server.ini
 Client side: #./DDS_Client -DCPSConfigFile rtps_DDS_Client.ini (if you use IEC61850 server, add -m option.)
 
 ### Protocol Stack
+Gate way server has dual protocol stacks, One is MMS protocol to communicating with relay, ESS, other electrical devices.
+Another is DDS protocol to communicating Gateway Client through public internet network.
+Therefore, Client side has only one DDS protocol stack.
+
 ![통신architecture](https://user-images.githubusercontent.com/23163982/81475936-0f4a8a80-924a-11ea-87f1-446c97646c00.png)
