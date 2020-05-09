@@ -10,3 +10,6 @@ The DDS to IEC 61850 gateway for microgrid network. This project necessary to MM
 ### How To Run
 Server side: #./DDS_Server -DCPSConfigFile rtps_DDS_Server.ini
 Client side: #./DDS_Client -DCPSConfigFile rtps_DDS_Client.ini (if you use IEC61850 server, add -m option.)
+
+### Protocol Stack
+![통신architecture](https://user-images.githubusercontent.com/23163982/81475936-0f4a8a80-924a-11ea-87f1-446c97646c00.png)
