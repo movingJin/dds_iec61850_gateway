@@ -27,5 +27,43 @@ Therefore, Client side has only one DDS protocol stack.
 다른 한 쪽은 인터넷망환경에서 게이트웨이 클라이언트와 통신하기 위한 DDS 프로토콜을 다룹니다.  
 때문에, 게이트웨이 클라이언트 측은 오직 DDS 프로토콜 스택을 다룹니다.
 
-
 ![통신architecture](https://user-images.githubusercontent.com/23163982/81475936-0f4a8a80-924a-11ea-87f1-446c97646c00.png)
+
+### Implementation
+* 게이트웨이는 3종류의 통신 주체가 있으며, 각각 DMS, MGMS (IEC 61850 클라이언트/서버), IEC 61850 서버로 구성.
+* DMS와 IEC 61850 서버는 서로 다른 통신프로토콜을 사용하지만, MGMS멀티플랫폼이 이 둘의 통신이 가능하도록 중간자 역할을 수행
+
+#### Gateway
+* C프로젝트와 C++프로젝트를 통합하기 위해 MMS-lite 프로젝트를 정적라이브러리로 빌드한 후 OpenDDS 프로젝트에 포함.
+* MMS-Lite의 클라이언트기능만을 필요로 하므로 시스템의 크기와 소비되는 자원을 줄이기 위해 불필요한 서버기능을 제거한 후에 오브젝트파일을 생성하여 libcositpxs0_ld.a 이름의 정적라이브러리를 생성.
+* 이후 OpenDDS 프로젝트에서 libcositpxs0_ld.a 라이브러리를 링크하여 MMS의 클라이언트 기능을 수행.
+* 기본적인 요청은 아래 시퀀스 다이어그램과 같이 DMS(End user)가 마이크로그리드 내, 장치로부터 데이터를 취득 요청시,  
+MGMS(게이트웨이)를 통해 IEC61850서버로 요청한 뒤, IEC61850 서버가 MGMS로 응답, MGMS가 Message 변환후, DMS로 DDS프로토콜을 사용하여 응답하는 구조를 가짐.
+
+![image](https://user-images.githubusercontent.com/23163982/152804943-2d70f9a3-2c5b-447e-9420-0ad008bdcb6e.png)
+
+#### IEC61850 Server
+* 게이트웨이가 기능적으로 올바르게 동작하는지 확인하기 위해 IEC 61850 서버를 개발.
+* 서버는 분산에너지자원 중 태양광발전장치기능을 수행하며, MGMS의 요청에서 따라 response 혹은 report 기능을 수행.
+* 실제 태양광발전장치의 계측데이터를 제공하는 IED 서버와 유사한 환경에서 실험을 진행하기 위해 태양광 패널과 라즈베리파이로 IED 서버를 개발.
+* 라즈베리파이는 I2C 통신을 통해 ADC가 읽어온 아날로그 데이터를 수신하며, 이때 클럭 동기화 기능을 위한 SCL핀과 입출력데이터 전송을 위한 SDA (Serial Data) 핀이 사용.  
+![image](https://user-images.githubusercontent.com/23163982/152803772-69e2823a-723e-4291-9f8d-254c0dba6941.png)
+
+### Lab environment
+* MGMS역할을 하는 노트북PC는 KT회선에 연결되어 있으며, DMS역할을 하는 PC는 세종대학교 내 서버 실에 위치.
+* 서로 다른 네트워크에 위치한 두 호스트 간의 hop수는 13 hop.
+* 태양광패널과 RaspberryPi3를 태양광 IED 서버로 구성.
+
+![image](https://user-images.githubusercontent.com/23163982/152807252-1a412779-0ae1-4755-8dde-4c39e43ddfd2.png)
+![image](https://user-images.githubusercontent.com/23163982/152807986-fd890935-666c-4864-a8f5-bd1f23a08c49.png)
+
+
+### Result
+![image](https://user-images.githubusercontent.com/23163982/152808498-998fbfbf-1778-4410-9f42-58000bbb5dc1.png)
+![image](https://user-images.githubusercontent.com/23163982/152808525-8eea837a-a9c6-4bd3-8a88-645d5a605de1.png)
+![image](https://user-images.githubusercontent.com/23163982/152808551-a5a8befb-6f52-4b92-a475-766050adb1eb.png)
+
+* Reliability QoS를 RELIABLE로 설정한 경우 최대 1,700ms의 RTT와 0%의 손실률, 0.004%의 1초 이상의 응답률을 보임.
+* BEST_EFFORT로 설정한 경우의 최대 61ms의 RTT와 0.001%의 손실률을 보임.
+* 이는 Reliability QoS의 재전송 메커니즘으로 인한 결과이며 BEST_EFFORT로 설정하였을 때 수신 측이 메시지를 올바르게 수신하였는가를 확인하지 않기 때문에 빠른 전송이 가능한 것.
+* ELIABLE의 1초 이상 응답률과 지연시간, BEST_EFFORT의 패킷손실률을 비교하였을 때 BEST_EFFORT를 사용하여 지연시간을 줄이고, 일정 시간 내에 수신되지 않으면 관리자에게 메시지가 전달되지 않았음을 알리는 것이 적당할 것으로 보임.
