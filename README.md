@@ -27,7 +27,7 @@ Therefore, Client side has only one DDS protocol stack.
 다른 한 쪽은 인터넷망환경에서 게이트웨이 클라이언트와 통신하기 위한 DDS 프로토콜을 다룹니다.  
 때문에, 게이트웨이 클라이언트 측은 오직 DDS 프로토콜 스택을 다룹니다.
 
-![통신architecture](https://user-images.githubusercontent.com/23163982/81475936-0f4a8a80-924a-11ea-87f1-446c97646c00.png)
+![image](https://user-images.githubusercontent.com/23163982/152809698-afb93010-6ffd-41ec-9305-14fe7f81b6e6.png)
 
 ### Implementation
 * 게이트웨이는 3종류의 통신 주체가 있으며, 각각 DMS, MGMS (IEC 61850 클라이언트/서버), IEC 61850 서버로 구성.
