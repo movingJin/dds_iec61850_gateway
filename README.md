@@ -59,9 +59,9 @@ MGMS(게이트웨이)를 통해 IEC61850서버로 요청한 뒤, IEC61850 서버
 
 
 ### Result
-![image](https://user-images.githubusercontent.com/23163982/152808498-998fbfbf-1778-4410-9f42-58000bbb5dc1.png)
-![image](https://user-images.githubusercontent.com/23163982/152808525-8eea837a-a9c6-4bd3-8a88-645d5a605de1.png)
-![image](https://user-images.githubusercontent.com/23163982/152808551-a5a8befb-6f52-4b92-a475-766050adb1eb.png)
+![image](https://user-images.githubusercontent.com/23163982/152995182-2eb7c031-c33f-411a-bb80-9bcd36aba7a3.png)
+![image](https://user-images.githubusercontent.com/23163982/152995281-ccc88004-da89-455a-9d4c-ca649cf4d0ea.png)
+![image](https://user-images.githubusercontent.com/23163982/152995317-92ee025a-4aaf-4d76-967b-c888a71e434e.png)
 
 * Reliability QoS를 RELIABLE로 설정한 경우 최대 1,700ms의 RTT와 0%의 손실률, 0.004%의 1초 이상의 응답률을 보임.
 * BEST_EFFORT로 설정한 경우의 최대 61ms의 RTT와 0.001%의 손실률을 보임.
