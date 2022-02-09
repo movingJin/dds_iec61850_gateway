@@ -1,12 +1,12 @@
 # DDS_IEC61850_Gateway
-The DDS to IEC 61850 gateway for microgrid network. This project necessary to MMS-Lite and OpenDDS API. Please install in advance above APIs.  
-마이크로그리드 네트워크를 위한 DDS와 IEC61850 게이트웨이 구성을 다루며, 이 프로젝트는 MMS-Lite와 OpenDDS API를 필요로 합니다. 아래의 API를 설치 바랍니다.
 ### Autor
 Corresponding Author: Dept. of Computer Engineering, Sejong University, Korea  
 E-mail: shdlehdwls@gmail.com  
 ORCID: https://orcid.org/0000-0002-8521-9866  
 
 ### Configuration
+The DDS to IEC 61850 gateway for microgrid network. This project necessary to MMS-Lite and OpenDDS API. Please install in advance above APIs.  
+마이크로그리드 네트워크를 위한 DDS와 IEC61850 게이트웨이 구성을 다루며, 이 프로젝트는 MMS-Lite와 OpenDDS API를 필요로 합니다. 아래의 API를 설치 바랍니다.
 1. Set up MMS-Lite API.
 2. Set up OpenDDS ver.3.13 with Xerces and security module on MMS-Lite API's root directory.
 3. Paste this project to $(DDS_ROOT)/PublicIOT directory.
