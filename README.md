@@ -4,7 +4,7 @@ The DDS to IEC 61850 gateway for microgrid network. This project necessary to MM
 ### Autor
 Corresponding Author: Dept. of Computer Engineering, Sejong University, Korea  
 E-mail: shdlehdwls@gmail.com  
-https://orcid.org/0000-0002-8521-9866  
+ORCID: https://orcid.org/0000-0002-8521-9866  
 
 ### Configuration
 1. Set up MMS-Lite API.
