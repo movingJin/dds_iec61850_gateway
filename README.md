@@ -1,5 +1,5 @@
 # DDS_IEC61850_Gateway
-### Autor
+### Author
 Corresponding Author: Dept. of Computer Engineering, Sejong University, Korea  
 E-mail: shdlehdwls@gmail.com  
 ORCID: https://orcid.org/0000-0002-8521-9866  
